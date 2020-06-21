@@ -1,0 +1,570 @@
+/*
+Template Name:Resturant html-5 free template
+Author:  Rabiul Hasan
+Author URI:
+Version: 1.0
+
+====/========        ===== ==/====/
+             CSS Index
+====/========        =======/====/
+1.Reset CSS 
+
+2.Header Area CSS 
+
+3.Welcome Area CSS
+
+4.About Area
+
+5.Service Area
+
+6.Video Area
+
+7.TeamWork Area
+
+8.Team Area
+
+9.Testimonial Area
+
+10.Brand Area 
+
+11.Addr 
+
+12.Contact Area 
+
+13.Subscribe Area
+
+14.Footer Area 
+
+15.H_v2 (homePage2) Area
+
+15.H_v3 (homePage3) Area
+
+15.H_v4 (homePage4) Area
+
+15.H_v5 (homePage5) Area
+
+*/
+
+
+/*====/========        ===== ==/====/
+            google Font 
+ ====/========        =======/====/*/
+@import url('https://fonts.googleapis.com/css?family=Marck+Script');
+@import url('https://fonts.googleapis.com/css?family=Architects+Daughter');
+/*====/========        ===== ==/====/
+             Reset CSS 
+ ====/========        =======/====/*/
+.mein_overflow{
+    overflow:hidden;
+}
+*{
+    margin: 0;
+    padding: 0;
+    outline: none!important;
+}
+body,html{
+    height: 100%;
+}
+body{
+    font: ;
+    font-size:14px;
+}
+a,span{
+    display: inline-block;
+}
+a{
+    text-decoration: none!important;
+    -webkit-transition: .3s linear;
+    transition: 0.3s linear;
+}
+img{
+    min-width: 100%;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p{
+    margin: 0;
+    padding: 0;
+}
+h3{
+    font-size: 36px;
+    font-weight: bold;
+}
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+/*====/========        ===== ==/====/
+             Header Area CSS 
+ ====/========        =======/====/*/
+.header_area {
+    background:rgba(0,0,0,0);
+    left: 0;
+    z-index: 2;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    position: fixed;
+}
+.header_area {
+    background: rgb(204, 204, 204);
+}
+.logo{
+    text-align:  left;
+    padding: 25px 20px;
+}
+.logo img{
+    
+}
+.menu_bar{
+    /* list-style:  none; */
+    text-align:  right;
+}
+.main_menu{
+    
+}
+.main_menu li{
+    display:  inline-block;
+    text-align: right;
+    position:  relative;
+    padding: 45px 21px;
+    font-weight:  bold;
+    /* text-transform:  capitalize; */
+    text-transform:  uppercase;
+}
+.main_menu li a{
+    color:  #fff;
+    display:  block;
+    text-decoration:  none;
+    font-weight: 400;
+    font-size: 16px;
+    font-family: 'Architects Daughter', cursive;
+}
+.main_menu{
+    text-align: right;
+}
+.main_menu li:hover a, .main_menu li:checked {
+    color: #fb5231;
+    transition: 0.3 all ease;
+    transition: 0.3s;
+}
+.social_bar{
+    padding: 45px 0px 0px 0px;
+}
+.social_bar a{
+    display:  inline-block;
+    padding: 0px  5px;
+    color:  #fff;
+    font-family: 'Comfortaa', cursive;
+}
+
+
+.header_social_bar {
+    padding: 23px 0px;
+    text-align:  right;
+}
+
+.header_social_bar a {
+    padding: 20px 5px;
+    color:  #fff;
+}
+
+
+.header_social_bar i.fab {
+    font-size: 16px;
+}
+
+/*====/========        ===== ==/====/
+             Welcome Area CSS
+ ====/========        =======/====/*/
+
+.slider_bg {
+    background-image: url(assets/image/slider_bg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.welcome_content h1 {
+    text-align: center;
+    font-size: 90px;
+    color: #fff;
+    /* margin-top: 200px; */
+    font-family: 'Marck Script', cursive;
+    padding-bottom: 30px;
+}
+.welcome_content{
+    /* height: 750px; */
+    padding: 222px 0px;
+}
+.welcome_content_devider{
+    width: 230px;
+    height: 30px;
+    display: inline-block;
+    margin-bottom: 30px;
+}
+.welcome_content_devider img{
+    width: 100%;
+    height: 100%;
+}
+.resturant_btn{
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+    text-transform: capitalize;
+    background: #923525;
+    padding: 10px 30px;
+    color: #fff;
+    transition: 0.4s;
+    font-family: 'Architects Daughter', cursive;
+    background: rgba(251, 82, 49, 0.8);
+}
+.call_now_btn {
+    padding: 10px 40px;
+    margin-left: 8px;
+    background: rgba(255, 255, 255, 0.44);
+}
+
+.resturant_btn:hover {
+    background: yellow;
+    color: #222;
+    text-decoration: none;
+   
+}
+/*====/========        ===== ==/====/
+             About Area CSS 
+ ====/========        =======/====/*/
+.about_area {
+    /* height: 720px; */
+    background-position: center;
+    background: url(assets/image/about_bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.about_area_content {
+    padding-top: 107px;
+    padding-bottom: 150px;
+}
+.section_title{
+    padding-bottom: 30px;
+}
+
+.section_title h3{
+    font-size: 36px;
+    font-weight: bold;
+    font-family: 'Marck Script', cursive;
+    /*color: #fb5231;*/
+    color: #fff;
+    text-transform: capitalize;
+    padding-bottom: 22px;
+}
+.about_area h3{
+    color: #fb5231;
+}
+.section_devider{
+    width: 247px;
+    height: 24px;
+    display: inline-block;
+}
+.guest_content_wrapper h3{
+    color: #222;
+}
+.guest_content h3 {
+    font-family: 'Marck Script', cursive;
+}
+.section_devider img{
+    width: 100%;
+    height: 100%; 
+}
+.about_area_content p{
+    font-size: 16px;
+    padding-bottom: 60px;
+    font-family: 'Architects Daughter', cursive;
+}
+.small_shape_img{
+    width: 221px;
+    height: 219px;
+    display: inline-block;
+}
+/*====/========        ===== ==/====/
+             Ingredient Area CSS 
+ ====/========        =======/====/*/
+.ingredient_area{
+    background-image: url(assets/image/ingredient_bg.jpg);
+    background-size: cover;
+    background-position: center;
+    
+}
+.ingrdient_content{
+    background: rgba(251, 82, 49, 0.89);
+    padding: 185px 50px;
+    text-align: center;
+    font-size: 16px;
+    color: #fff;
+}
+.ingrdient_content p{
+    padding-bottom: 60px;
+}
+/*====/========        ===== ==/====/
+             Menu Area CSS 
+ ====/========        =======/====/*/
+.menu_area{
+    background: url(assets/image/menu_bg.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.menu_title{
+    color: #fff;
+    text-align: center;
+    font-family: 'Architects Daughter', cursive;
+}
+.menu_name{
+    text-align: left;
+    font-family: 'Architects Daughter', cursive;
+}
+.menu_price{
+    text-align: right;
+    font-family: 'Architects Daughter', cursive;
+}
+.single_menu_info{
+    color : #fff;
+    margin-left: 30px;
+    margin-right: 30px;
+    border-bottom: 1px solid #fb5231;
+    margin-bottom: 30px;
+}
+.single_menu_info  p{
+    padding-top: 15px;
+    text-align: left;
+    padding-bottom: 15px;
+    font-family: 'Architects Daughter', cursive;
+}
+.menu_area_padding {
+    padding-top: 130px;
+    padding-bottom: 80px;
+}
+/*====/========        ===== ==/====/
+             Guest Area CSS 
+ ====/========        =======/====/*/
+.guest_area{
+    background : url(assets/image/review_bg.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.guest_content_wrapper{
+    padding-top: 260px;
+    padding-bottom: 150px;
+}
+.guest_content p{
+    font-size: 25px;
+    padding-bottom: 25px;
+    font-family: 'Architects Daughter', cursive;
+}
+.guest_content h3{
+    font-size: 41px;
+    font-weight: bold;
+    padding-bottom: 25px;
+}
+.guest_review i {
+    display: inline-block;
+    padding: 10px 2px;
+    color:  #FAC917;
+}
+/*====/========        ===== ==/====/
+             Reservation Area CSS 
+ ====/========        =======/====/*/
+.reservation_area{
+    background: url(assets/image/resurbation_bg.jpg);
+    background-position: center;
+    background-size: cover;
+    
+     
+}
+.reservation_single_image{
+    width: 100%;
+    height: auto;
+}
+.reservation_padding{
+    padding: 100px 0px;
+}
+.reservation_content_wrapper p{
+    padding: 20px 0px;
+     font-family: 'Architects Daughter', cursive;
+}
+label {
+    display: block;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fb5231;
+    font-family: 'Architects Daughter', cursive;
+}
+input[type="text"] {
+    display: block;
+    width: 100%;
+    height: 40px;
+    padding: 10px;
+}
+.reserbation_input_margin p {
+    margin: -12px 0px;
+   
+}
+.reservation_form a{
+    padding-top: 10px;
+}
+
+.submit_btn {
+    padding: 5px 50px;
+    text-align: center;
+    display: inline-block;
+}
+.reservation_btn{
+    padding-top: 30px;
+}
+
+
+/*====/========        ===== ==/====/
+             Footer Area CSS 
+ ====/========        =======/====/*/
+.footer_area{
+    background: url(assets/image/footer_bg.jpg);
+    color: #fff;
+}
+.footer_wid{
+    text-align: center;
+    font-size: 18px;
+    font-family: 'Architects Daughter', cursive;
+}
+.footer_phone{
+    padding-bottom: 20px;
+}
+.footer_logo{
+    width: 220px;
+    height: auto;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+.footer_social_icon a {
+    height: 35px;
+    width: 35px;
+    margin: 0px 3px;
+    border-radius: 50%;
+    line-height: 38px;
+    font-size: 18px;
+    color: #6B6B6B;
+    transition: 0.3s;
+    background: #1A1E36;
+}
+.footer_social_icon a:hover{
+    background: #fb5231;
+
+}
+.header_social_bar a:hover {
+    color: #fb5231;
+}
+.footer_lcopywrite{
+    padding: 15px 0px;
+    text-align: center;
+    font-size: 16px;
+}
+.footer_content {
+    padding: 50px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.phone_footer{
+    padding: 35px 0px;
+}
+.responsive_menu_slicknav{
+    display: none;
+}
+.upper_480 {
+    display: none;
+}
+/*//Pre loader*/
+.preloader {
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background: yellow;
+    z-index: 10000;
+}
+.spinner {
+    margin: 100px auto;
+    width: 50px;
+    height: 40px;
+    text-align: center;
+    font-size: 10px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -20px;
+    margin-top: -20px;
+}
+
+.spinner > div {
+  background-color: #333;
+  height: 100%;
+  width: 6px;
+  display: inline-block;
+  
+  -webkit-animation: sk-stretchdelay 1.2s infinite ease-in-out;
+  animation: sk-stretchdelay 1.2s infinite ease-in-out;
+}
+
+.spinner .rect2 {
+  -webkit-animation-delay: -1.1s;
+  animation-delay: -1.1s;
+}
+
+.spinner .rect3 {
+  -webkit-animation-delay: -1.0s;
+  animation-delay: -1.0s;
+}
+
+.spinner .rect4 {
+  -webkit-animation-delay: -0.9s;
+  animation-delay: -0.9s;
+}
+
+.spinner .rect5 {
+  -webkit-animation-delay: -0.8s;
+  animation-delay: -0.8s;
+}
+
+@-webkit-keyframes sk-stretchdelay {
+  0%, 40%, 100% { -webkit-transform: scaleY(0.4) }  
+  20% { -webkit-transform: scaleY(1.0) }
+}
+
+@keyframes sk-stretchdelay {
+  0%, 40%, 100% { 
+    transform: scaleY(0.4);
+    -webkit-transform: scaleY(0.4);
+  }  20% { 
+    transform: scaleY(1.0);
+    -webkit-transform: scaleY(1.0);
+  }
+}
+
+
+.header_area {
+    background: rgba(0, 0, 0,0);
+}
+.header_bg{
+    background: #1A1F3C;
+    box-shadow: 0 0 12px #aaa;
+    transition: 0.4s all ease;
+}
+
+
+
+
